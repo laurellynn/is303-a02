@@ -57,17 +57,17 @@ else:
     print("Please enter one of the above choices.")
 
 if goal == "A" or goal == "B" or goal == "C":
-    goal_text = "Weight Loss"
+    print("Weight Loss")
 elif goal == "D" or goal == "E" or goal == "F":
-    goal_text = "Strength Training"
+    print("Strength Training")
 elif goal == "G" or goal == "H" or goal == "I":
-    goal_text = "Endurance Training"
+    print("Endurance Training") 
 else:
     print("Please type the selected capital letter for your goal, not the word.")
 
 
 
-print(f"{customer_name} | Fitness Level: {fitness_level} | Goal: {goal_text}")
+print(f"{customer_name} | Fitness Level: {fitness_level} | Goal: {goal}")
 if fitness_level == "Beginner" and goal == "A":
     print(decision_a)
 elif fitness_level == "Beginner" and goal == "B":
